@@ -23,7 +23,7 @@ settings:
     LANGUAGE: en_US.utf8
     allow_analytics: Yes             # Allow sending basic run analytics to Atlassian. These analytics help us to understand how the tool is being used and help us to continue to invest in this tooling. For more details please see our README.
     # Action percentage for Jmeter and Locust load executors
-    agent_browse_projects: 10
+    agent_browse_projects: 9
     agent_view_request: 25
     agent_add_comment: 25
     agent_view_queues_small: 10
@@ -33,16 +33,16 @@ settings:
     agent_view_report_created_vs_resolved_small: 4
     agent_view_report_created_vs_resolved_medium: 4
     agent_view_customers: 4
-    agent_standalone_extension: 0
+    agent_standalone_extension: 1
 
     customer_view_portal: 10
     customer_view_requests: 25
     customer_view_request: 15
     customer_add_comment: 25
     customer_share_request_with_customer: 5
-    customer_share_request_with_org: 5
+    customer_share_request_with_org: 1
     customer_create_request: 15
-    customer_standalone_extension: 0
+    customer_standalone_extension: 4
 
     custom_dataset_query: ""        # Write JQL query to add JQL output to the app/datasets/jsm/custom-issues.csv, e.g. "summary ~ 'AppRequests*'"
 services:
